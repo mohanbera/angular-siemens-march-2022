@@ -1,0 +1,12 @@
+<label-component [message]="'Username'" ></label-component>
+<input type="text" placeholder="Username" [(ngModel)]="username">
+<p></p>
+<label-component [message]="'Password'"></label-component>
+<input type="password" placeholder="password" [(ngModel)]="password">
+<p></p>
+<label-component [message]="'Email'"></label-component>
+<input type="text" placeholder="email" [(ngModel)]="email">
+<p></p>
+<p></p>
+<button class="sign-btn" (click)="signup()">Sign in</button>
+<button class="cancel-btn" (click)="clear()">Cancel</button>

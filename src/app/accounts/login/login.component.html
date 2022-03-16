@@ -1,0 +1,10 @@
+<label-component [message]="'message'"></label-component>
+<input #usernameTextBox type="text" placeholder="username" (input)="onUsernameChanged(usernameTextBox.value)" [value]="username">
+
+<p></p>
+<label-component [message]="'message'" ></label-component>
+<input #passwordTextBox type="password" placeholder="password" (input)="onPasswordChange(passwordTextBox.value)" [value]="password">
+
+<p></p>
+<button class="sign-btn" (click)="login()">Sign in</button>
+<button class="cancel-btn" (click)="clear()">Cancel</button>

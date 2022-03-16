@@ -1,0 +1,18 @@
+button {
+  margin: 10px;
+  padding: 10px;
+}
+
+.sign-btn {
+  background-color: green;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: indianred;
+  color: white;
+}
+
+input {
+  padding: 5px;
+}
